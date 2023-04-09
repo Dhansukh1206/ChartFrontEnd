@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="body">
       <Navbar />
-      <h1 style={{ textAlign: "center" }}>Task Transaction Chart</h1>
+      <h1 style={{ textAlign: "center" }}>Bank Transaction Details With Chart</h1>
       <OHLCVChart data={financialData} />
     </div>
   );
